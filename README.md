@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo] https://github.com/hingham/04-buffers-hi/blob/master/LAB.md
-* [travis]https://api.travis-ci.com/hingham/04-buffers.svg?branch=master
+* [travis](https://api.travis-ci.com/hingham/04-buffers.svg?branch=master)
 
 ### Modules
 #### `modulename.js`
