@@ -1,15 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Name: buffers    
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo] https://github.com/hingham/04-buffers-hi/blob/master/LAB.md
+* [travis]https://api.travis-ci.com/hingham/04-buffers.svg?branch=master
 
 ### Modules
 #### `modulename.js`
@@ -23,12 +21,11 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - set your port in your environment
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
+* Endpoint: `/`
   * Returns a JSON object with abc in it.
 * Endpoint: `/bing/zing/`
   * Returns a JSON object with xyz in it.
