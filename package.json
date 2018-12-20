@@ -1,0 +1,19 @@
+{
+  "name": "04-buffers-hi",
+  "version": "1.0.0",
+  "description": "Buffers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hingham/04-buffers-hi.git"
+  },
+  "author": "Hannah Ingham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hingham/04-buffers-hi/issues"
+  },
+  "homepage": "https://github.com/hingham/04-buffers-hi#readme"
+}
