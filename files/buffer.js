@@ -13,7 +13,6 @@ arr.forEach(name =>{
 });`
 
 
-
 // set up a write file, param = loop.js 
 function fillFile(file, buffer){
     console.log(buffer.fill(9));
