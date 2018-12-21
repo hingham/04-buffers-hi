@@ -29,7 +29,7 @@ setPromise.then((data, text) => {
 
     // data = Buffer.concat([htmlArticle, data, htmlArticleEnd], (htmlArticle.length + data.length + htmlArticleEnd.length));
 
-  let previousIdx = 9;
+  let previousIdx = 0;
   let bufArray = [];
   
   for (let i = 0; i < data.length; i++) {
