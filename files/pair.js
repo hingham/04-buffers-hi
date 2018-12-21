@@ -27,6 +27,8 @@ setPromise.then((data, text) => {
   htmlArticle.fill('<article>');
   htmlArticleEnd.fill('</article>');
 
+    // data = Buffer.concat([htmlArticle, data, htmlArticleEnd], (htmlArticle.length + data.length + htmlArticleEnd.length));
+
   let previousIdx = 9;
   let bufArray = [];
   
@@ -61,6 +63,9 @@ setPromise.then((data, text) => {
     let len = finalBuffer.length + bufArray[i].length;
     finalBuffer = Buffer.concat([finalBuffer, bufArray[i]], len);
   }
+
+  finalBuffer = Buffer.concat([htmlArticle, finalBuffer, htmlArticleEnd], (htmlArticle.length + finalBuffer.length + htmlArticleEnd.length));
+
   return finalBuffer;
 
 }).then((buffer) => {
