@@ -75,7 +75,7 @@ setPromise.then((data, text) => {
 
 //write your buffer to a new html file
 }).then((buffer) => {
-  fs.writeFile('./pair-programming.html', buffer, (err) => {
+  fs.writeFile('./test.html', buffer, (err) => {
     if (err) {return console.log(err); }
     console.log('file saved');
   });
